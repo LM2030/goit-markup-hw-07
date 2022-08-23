@@ -41,7 +41,7 @@
     margin-bottom: 30px;
 }
 
-.social__link{
+.social__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -50,16 +50,16 @@
     align-items: center;
     fill: var(--icon-main-color);
     transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
-}
 
-.social__link:hover,
-.social__link:focus,
-.social__link:active {
-    background-color: var(--blue-color);
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--blue-color);
+    }
 }
 
 .social__link:hover .social__icon,
 .social__link:focus .social__icon,
-.social__link:active .social__icon{
+.social__link:active .social__icon {
     fill: var(--white-text-color);
 }
